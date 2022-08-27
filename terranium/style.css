@@ -1,0 +1,85 @@
+body {
+   font-family: Arial, Helvetica, sans-serif; 
+}
+h1 {
+    color: rgb(53, 116, 51); 
+    text-align: center;
+}
+
+#left-container{
+    background-color: #eee; 
+    width: 15%;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    height: 100%;
+    padding: 10px;
+}
+#right-container{
+    background-color: #eee; 
+    width: 15%;
+    right: 0px;
+    top: 0px;
+    position: absolute;
+    height: 100%;
+    padding: 10px;
+}
+
+.Anime-holder {
+    position: relative;
+    height: 100%;
+    left: -10px;
+}
+
+.Anime {
+    position: absolute;
+    max-width: 150%;
+    max-height: 150%;
+    z-index: 2;
+}
+
+.frame-walls {
+    height: 80%;
+    width: 60%;
+    background-color: red;
+    border-radius: 1rem;
+    position: absolute;
+    bottom: 0.5%;
+    left: 20%;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+.frame-top {
+    width: 50%;
+    height: 5%;
+    background-color: black;
+    position: absolute;
+    bottom: 80.5%;
+    left: 25%;
+    opacity: 0.7;
+    z-index: 1;
+
+}
+.frame-bottom {
+    width: 50%;
+    height: 1%;
+    background-color: black;
+    position: absolute;
+    bottom: 0%;
+    left: 25%;
+    opacity: 0.7;
+
+}
+
+.shadow {
+    width: 80%;
+    height: 5%;
+    background-color: red;
+    position: absolute;
+    border-radius: 0 0 1rem 1rem;
+    bottom: 1%;
+    left: 20%;
+    opacity: 0.7;
+    z-index: -1;
+}
